@@ -1,0 +1,10 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        'GradinaruFelix.Pipedrive.NodeTypeFinisher': true
+    nodeTypes:
+      groups:
+        'form.pipedriveFinisher':
+          label: 'Pipedrive Form Finisher'
+          collapsed: false
