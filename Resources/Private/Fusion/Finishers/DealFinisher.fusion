@@ -1,0 +1,9 @@
+prototype(GradinaruFelix.Pipedrive.NodeTypeFinisher:DealFinisher.Definition) < prototype(Neos.Form.Builder:Finisher.Definition) {
+    formElementType = 'GradinaruFelix.Pipedrive:DealFinisher'
+
+    options {
+      title = ${null}
+      person_id = ${null}
+      org_id = ${null}
+    }
+}

@@ -1,0 +1,7 @@
+prototype(GradinaruFelix.Pipedrive.NodeTypeFinisher:OrganizationFinisher.Definition) < prototype(Neos.Form.Builder:Finisher.Definition) {
+    formElementType = 'GradinaruFelix.Pipedrive:OrganizationFinisher'
+
+    options {
+      name = ${null}
+    }
+}

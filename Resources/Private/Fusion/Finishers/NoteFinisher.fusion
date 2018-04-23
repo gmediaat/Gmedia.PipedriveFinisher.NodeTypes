@@ -1,0 +1,10 @@
+prototype(GradinaruFelix.Pipedrive.NodeTypeFinisher:NoteFinisher.Definition) < prototype(Neos.Form.Builder:Finisher.Definition) {
+    formElementType = 'GradinaruFelix.Pipedrive:NoteFinisher'
+
+    options {
+      content = ${null}
+      person_id = ${null}
+      org_id = ${null}
+      deal_id = ${null}
+    }
+}

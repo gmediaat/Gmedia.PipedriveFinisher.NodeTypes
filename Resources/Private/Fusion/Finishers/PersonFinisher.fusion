@@ -1,0 +1,9 @@
+prototype(GradinaruFelix.Pipedrive.NodeTypeFinisher:PersonFinisher.Definition) < prototype(Neos.Form.Builder:Finisher.Definition) {
+    formElementType = 'GradinaruFelix.Pipedrive:PersonFinisher'
+
+    options {
+      name = ${null}
+      email = ${null}
+      org_id = ${null}
+    }
+}
