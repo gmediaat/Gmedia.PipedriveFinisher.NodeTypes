@@ -1,0 +1,31 @@
+'GradinaruFelix.Pipedrive.NodeTypeFinisher:DealFinisher':
+  superTypes:
+    'Neos.Form.Builder:AbstractFinisher': TRUE
+  ui:
+    label: 'Deal Finisher'
+    icon: 'icon-euro'
+    inspector:
+      groups:
+        'finisher':
+          icon: 'icon-asterisk'
+  properties:
+    'title':
+      type: string
+      ui:
+        label: 'Title'
+        inspector:
+          group: 'finisher'
+      validation:
+        'Neos.Neos/Validation/NotEmptyValidator': []
+    'person_id':
+      type: string
+      ui:
+        label: 'Person ID'
+        inspector:
+          group: 'finisher'
+    'org_id':
+      type: string
+      ui:
+        label: 'Organization ID'
+        inspector:
+          group: 'finisher'

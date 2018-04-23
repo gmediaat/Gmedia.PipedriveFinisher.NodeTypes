@@ -1,0 +1,19 @@
+'GradinaruFelix.Pipedrive.NodeTypeFinisher:OrganizationFinisher':
+  superTypes:
+    'Neos.Form.Builder:AbstractFinisher': TRUE
+  ui:
+    label: 'Organization Finisher'
+    icon: 'icon-building'
+    inspector:
+      groups:
+        'finisher':
+          icon: 'icon-asterisk'
+  properties:
+    'name':
+      type: string
+      ui:
+        label: 'Name'
+        inspector:
+          group: 'finisher'
+      validation:
+        'Neos.Neos/Validation/NotEmptyValidator': []
