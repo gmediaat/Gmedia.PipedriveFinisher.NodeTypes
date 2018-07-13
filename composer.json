@@ -1,5 +1,5 @@
 {
-    "description": "",
+    "description": "NodeType based finisher for Gmedia.PipedriveFinisher",
     "type": "neos-package",
     "name": "gmedia/pipedrivefinisher-nodetypes",
     "version": "1.0.1",
